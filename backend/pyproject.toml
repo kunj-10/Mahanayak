@@ -1,0 +1,19 @@
+[project]
+name = "kakushin-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bson>=0.5.10",
+    "fastapi>=0.115.13",
+    "google-search-results>=2.4.2",
+    "langgraph>=0.4.8",
+    "markdown2>=2.5.3",
+    "pydantic-ai>=0.2.19",
+    "pymongo>=4.13.2",
+    "python-dotenv>=1.1.0",
+    "supabase>=2.15.3",
+    "uvicorn>=0.34.3",
+    "xhtml2pdf>=0.2.17",
+]
