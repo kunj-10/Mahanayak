@@ -342,8 +342,9 @@ pnpm run dev
 ---
 
 ### 📷 Screenshots
-
-
+![Screenshot 2025-07-01 131036](https://github.com/user-attachments/assets/c57d60d4-a3d0-4333-939c-827216b3beb0)
+![image](https://github.com/user-attachments/assets/ecf3ae06-fe8e-4903-97fb-679c87ea94bc)
+![image](https://github.com/user-attachments/assets/de7d0302-56f7-489d-950d-143226b064d4)
 ---
 
 ## 🤝 Contributing
