@@ -202,9 +202,8 @@ dependencies = FeedbackDeps(
     GOOGLE_CLIENT_ID=os.getenv("GOOGLE_CLIENT_ID"),
     GOOGLE_CLIENT_SECRET=os.getenv("GOOGLE_CLIENT_SECRET"),
     GOOGLE_REDIRECT_URI=os.getenv("GOOGLE_REDIRECT_URI"),
-    user="685d40ffd76683cf9783eac3",
-    event="68543aaec3d68550c4b2c5e8"
-
+    # user="685d40ffd76683cf9783eac3",
+    # event="68543aaec3d68550c4b2c5e8"
 )
 async def feedback_agent_node(state: State, writer):
     writer({
