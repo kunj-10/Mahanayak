@@ -88,3 +88,8 @@ class GoogleAuth:
 
         import urllib.parse
         return f"{base_url}?{urllib.parse.urlencode(params)}"
+
+
+if __name__ == "__main__":
+    auth = GoogleAuth()
+    print(auth.get_authorization_url())

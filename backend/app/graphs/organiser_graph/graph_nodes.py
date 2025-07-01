@@ -13,8 +13,14 @@ from app.agents import (
     resource_agent,
     remainder_agent,
     volunteer_guidelines_agent,
-    feedback_agent
+    feedback_agent,
+    FeedbackDeps
 )
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 async def get_event(state: State, writer):
     writer({
@@ -50,6 +56,8 @@ async def reasoner(state: State, writer):
 
     result = await organiser_reasoner.run(state['user_input'])
     result = json.loads(result.output)
+
+    print(result)
 
     return {
         "required_agents": result
@@ -99,6 +107,7 @@ async def prompt_generator_node(state: State, writer):
         Event: {state['event']}
         Required Agents: {state['required_agents']}
         message_history: {state["messages"]}
+        Tell the agents to give pretty outputs in markdown using emojis etc. It should be visually appealing.
     """
 
     result = await prompt_generator.run(user_input)
@@ -106,6 +115,8 @@ async def prompt_generator_node(state: State, writer):
 
     result = result.output[7:-3]
     result = json.loads(result)
+
+    print(result)
 
     return {
         "agent_prompts": result
@@ -187,6 +198,14 @@ async def permission_agent_node(state: State, writer):
         "content": result
     })
 
+dependencies = FeedbackDeps(
+    GOOGLE_CLIENT_ID=os.getenv("GOOGLE_CLIENT_ID"),
+    GOOGLE_CLIENT_SECRET=os.getenv("GOOGLE_CLIENT_SECRET"),
+    GOOGLE_REDIRECT_URI=os.getenv("GOOGLE_REDIRECT_URI"),
+    user="685d40ffd76683cf9783eac3",
+    event="68543aaec3d68550c4b2c5e8"
+
+)
 async def feedback_agent_node(state: State, writer):
     writer({
         "type": "bot",
@@ -195,7 +214,8 @@ async def feedback_agent_node(state: State, writer):
 
     prompt = state["agent_prompts"]['Feedback Agent']
 
-    result = await feedback_agent.run(prompt)
+
+    result = await feedback_agent.run(prompt, deps=dependencies)
     result = result.output
     writer({
         "type": "feedback",

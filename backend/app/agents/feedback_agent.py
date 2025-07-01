@@ -59,7 +59,8 @@ def create_google_form(
     - `form_id`: Google Form ID
     - `auth_url` (optional): Google OAuth URL if user needs to authenticate
     """
-    
+    # user_id = ctx.deps.user
+    # event_id = ctx.deps.event
     if not user_id:
         return {"message": "Missing user_id parameter"}
     if not event_id:
