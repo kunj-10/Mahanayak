@@ -352,8 +352,6 @@ pnpm run dev
 
 ### **Join Our Green Revolution! 🌱**
 
-<img src="https://contrib.rocks/image?repo=your-username/mahanayak" />
-
 </div>
 
 We welcome contributions from developers, environmentalists, and changemakers! Here's how you can help:
