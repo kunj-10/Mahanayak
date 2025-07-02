@@ -94,94 +94,15 @@ graph TD
 </table>
 
 ---
-
-## 🚀 Tech Stack
-
-<div align="center">
-
-### **Frontend Technologies**
-<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,nodejs&theme=dark" />
-
-### **Backend & AI**
-<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,tensorflow&theme=dark" />
-
-### **Database & Cloud**
-<img src="https://skillicons.dev/icons?i=supabase,postgres,redis,docker&theme=dark" />
-
-### **Integrations & APIs**
-<img src="https://skillicons.dev/icons?i=github,linkedin,twitter,google&theme=dark" />
-
-</div>
-
-<table align="center">
-<tr>
-<th>Category</th>
-<th>Technology</th>
-<th>Purpose</th>
-<th>Version</th>
-</tr>
-<tr>
-<td rowspan="3">🎨 <strong>Frontend</strong></td>
-<td><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/></td>
-<td>React framework with SSR</td>
-<td>14.x</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/Copilot%20Kit-0078D4?style=flat-square&logo=github-copilot&logoColor=white" alt="Copilot Kit"/></td>
-<td>AI-powered UI components</td>
-<td>Latest</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind"/></td>
-<td>Utility-first CSS framework</td>
-<td>3.x</td>
-</tr>
-<tr>
-<td rowspan="2">⚡ <strong>Backend</strong></td>
-<td><img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/></td>
-<td>High-performance Python API</td>
-<td>0.100+</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-<td>Core backend language</td>
-<td>3.9+</td>
-</tr>
-<tr>
-<td rowspan="2">🤖 <strong>AI & ML</strong></td>
-<td><img src="https://img.shields.io/badge/Pydantic%20AI-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic AI"/></td>
-<td>Individual AI agent framework</td>
-<td>Latest</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/></td>
-<td>Agent orchestration platform</td>
-<td>Latest</td>
-</tr>
-<tr>
-<td rowspan="2">💾 <strong>Database</strong></td>
-<td><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/></td>
-<td>Backend-as-a-Service</td>
-<td>Latest</td>
-</tr>
-<tr>
-<td><img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/></td>
-<td>Primary database</td>
-<td>15+</td>
-</tr>
-</table>
-
----
-
 ## 🤖 AI Agents & Tools
 
 <div align="center">
 
 ### **🎭 Meet Our AI Agent Squad**
 
-</div class="center">
+</div>
 
-<table>
+<table align="center">
 <tr>
 <td width="50%">
 
@@ -274,6 +195,83 @@ Output:
 
 ## 🤖 Autonomous AI Workflow
 ![diagram-export-6-30-2025-8_22_47-PM](https://github.com/user-attachments/assets/b89142fd-f2ef-465d-b956-056f1d7065c3)
+
+---
+## 🚀 Tech Stack
+
+<div align="center">
+
+### **Frontend Technologies**
+<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,nodejs&theme=dark" />
+
+### **Backend & AI**
+<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,tensorflow&theme=dark" />
+
+### **Database & Cloud**
+<img src="https://skillicons.dev/icons?i=supabase,postgres,redis,docker&theme=dark" />
+
+### **Integrations & APIs**
+<img src="https://skillicons.dev/icons?i=github,linkedin,twitter,google&theme=dark" />
+
+</div>
+
+<table align="center">
+<tr>
+<th>Category</th>
+<th>Technology</th>
+<th>Purpose</th>
+<th>Version</th>
+</tr>
+<tr>
+<td rowspan="3">🎨 <strong>Frontend</strong></td>
+<td><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/></td>
+<td>React framework with SSR</td>
+<td>14.x</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Copilot%20Kit-0078D4?style=flat-square&logo=github-copilot&logoColor=white" alt="Copilot Kit"/></td>
+<td>AI-powered UI components</td>
+<td>Latest</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind"/></td>
+<td>Utility-first CSS framework</td>
+<td>3.x</td>
+</tr>
+<tr>
+<td rowspan="2">⚡ <strong>Backend</strong></td>
+<td><img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/></td>
+<td>High-performance Python API</td>
+<td>0.100+</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+<td>Core backend language</td>
+<td>3.9+</td>
+</tr>
+<tr>
+<td rowspan="2">🤖 <strong>AI & ML</strong></td>
+<td><img src="https://img.shields.io/badge/Pydantic%20AI-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic AI"/></td>
+<td>Individual AI agent framework</td>
+<td>Latest</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/></td>
+<td>Agent orchestration platform</td>
+<td>Latest</td>
+</tr>
+<tr>
+<td rowspan="2">💾 <strong>Database</strong></td>
+<td><img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/></td>
+<td>Backend-as-a-Service</td>
+<td>Latest</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/></td>
+<td>Primary database</td>
+<td>15+</td>
+</tr>
+</table>
 
 
 ## 🛠️ Installation & Setup
